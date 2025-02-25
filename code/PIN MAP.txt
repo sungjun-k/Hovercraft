@@ -1,0 +1,16 @@
+SCK D13
+MISO D12
+MOSI D11
+CE D7
+CSN D8
+
+PWM D10, D9, D6, D5, D3
+
+led = 2 
+buzzer = 4
+
+esc1.attach(3); //밑
+esc2.attach(5); //좌 
+esc3.attach(6); //우
+servo.attach(9);//좌
+servo.attach(10);//우
